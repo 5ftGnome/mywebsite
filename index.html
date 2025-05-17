@@ -2,12 +2,11 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Anime Gallery</title>
+  <title>Anime Girl Gallery</title>
   <style>
     body {
       font-family: Arial, sans-serif;
-      background-color: #f2f2f2;
-      text-align: center;
+      background: #fafafa;
       margin: 0;
       padding: 0;
     }
@@ -15,23 +14,22 @@
     h1 {
       background-color: #ff69b4;
       color: white;
-      padding: 1em;
+      padding: 1rem;
       margin: 0;
     }
 
     .gallery {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 20px;
-      padding: 2em;
+      gap: 1.5rem;
+      padding: 2rem;
     }
 
     .gallery img {
       width: 100%;
-      height: auto;
-      border-radius: 12px;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-      transition: transform 0.2s ease;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+      transition: transform 0.2s ease-in-out;
     }
 
     .gallery img:hover {
@@ -39,25 +37,24 @@
     }
 
     footer {
-      margin-top: 2em;
-      font-size: 0.9em;
-      color: #777;
+      text-align: center;
+      padding: 1rem;
+      color: #666;
     }
   </style>
 </head>
 <body>
   <h1>Anime Girl Gallery</h1>
   <div class="gallery">
-    <img src="https://loremflickr.com/320/480/anime,girl?lock=1" alt="Anime Girl 1">
-    <img src="https://loremflickr.com/320/480/anime,girl?lock=2" alt="Anime Girl 2">
-    <img src="https://loremflickr.com/320/480/anime,girl?lock=3" alt="Anime Girl 3">
-    <img src="https://loremflickr.com/320/480/anime,girl?lock=4" alt="Anime Girl 4">
-    <img src="https://loremflickr.com/320/480/anime,girl?lock=5" alt="Anime Girl 5">
-    <img src="https://loremflickr.com/320/480/anime,girl?lock=6" alt="Anime Girl 6">
+    <img src="https://cdn.pixabay.com/photo/2023/06/26/11/36/anime-8090482_1280.jpg" alt="Anime Girl 1">
+    <img src="https://cdn.pixabay.com/photo/2023/03/06/10/27/anime-7832837_1280.jpg" alt="Anime Girl 2">
+    <img src="https://cdn.pixabay.com/photo/2022/11/08/20/03/anime-7578480_1280.jpg" alt="Anime Girl 3">
+    <img src="https://cdn.pixabay.com/photo/2021/11/15/03/52/anime-girl-6795560_1280.png" alt="Anime Girl 4">
+    <img src="https://cdn.pixabay.com/photo/2023/02/19/14/55/anime-girl-7798539_1280.jpg" alt="Anime Girl 5">
+    <img src="https://cdn.pixabay.com/photo/2023/02/21/14/25/anime-girl-7803194_1280.jpg" alt="Anime Girl 6">
   </div>
   <footer>
-    Images from <a href="https://loremflickr.com" target="_blank">loremflickr.com</a>
+    All images from <a href="https://pixabay.com" target="_blank">Pixabay</a> (free for commercial use).
   </footer>
 </body>
 </html>
-
